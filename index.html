@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Alcívar</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <a id="menu-icon" onclick="menuToggle()"><i class='bx bx-menu bg-dark p-2 rounded h3' style='color:#fdfdfd'></i></a>
+    <nav id="menu" class="slide-in-blurred-top bg-dark">
+        <div class="container-flex h-100">
+            <div class="row W-100 h-100">
+                <div
+                    class="col-12 col-md-6 bg-dark text-light h-100 d-flex flex-column justify-content-center align-items-start">
+                    <a id="a1" href="#home" onclick="menuToggle()"
+                        class="sk3 display-1 text-decoration-none ms-3 my-3">01 HOME</a>
+                    <a id="a2" href="#skills" onclick="menuToggle()"
+                        class="sk3 display-1 text-decoration-none ms-3 my-3">02 SKILLS</a>
+                    <a id="a3" href="#projects" onclick="menuToggle()"
+                        class="sk3 display-1 text-decoration-none ms-3 my-3">03 PROJECTS</a>
+                    <a id="a4" href="#contact" onclick="menuToggle()"
+                        class="sk3 display-1 text-decoration-none ms-3 my-3">04 CONTACT</a>
+                </div>
+                <div class="col-md-6 bg-light h-100 d-flex align-items-center justify-content-center">
+                    <div id="menuImg" class="container h-75 w-75 bg-secondary"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="front" class="bg-light slide-in-blurred-left" data-aos="fade-right" data-aos-duration="3000">
+        <div class="container d-flex align-items-start w-100 p-5 h-100">
+            <div class="col-12 d-flex flex-column justify-content-evenly h-100">
+                <p onclick="frontEnd()" class="sk2 text-end display-3">Go Back&gt</p>
+                <div class="sk w-100 d-flex align-items-center justify-content-center">
+                    <i class='display-1 bx bxl-javascript me-3'></i>
+                    <span class="display-3">JavaScript</span>
+                </div>
+                <div class="sk w-100 d-flex align-items-center justify-content-center">
+                    <i class='display-1 bx bxl-typescript me-3'></i>
+                    <span class="display-3">TypeScript</span>
+                </div>
+                <div class="sk w-100 d-flex align-items-center justify-content-center">
+                    <i class='display-1 bx bxl-html5 me-3'></i>
+                    <span class="display-3">HTML5</span>
+                </div>
+                <div class="sk w-100 d-flex align-items-center justify-content-center">
+                    <i class='display-1 bx bxl-css3 me-3'></i>
+                    <span class="display-3">CSS3</span>
+                </div>
+                <div class="sk w-100 d-flex align-items-center justify-content-center">
+                    <i class='display-1 bx bxl-bootstrap me-3'></i>
+                    <span class="display-3">Bootstrap</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="back" class="bg-dark text-light slide-in-blurred-right" data-aos="fade-right" data-aos-duration="3000">
+        <div class="container d-flex align-items-start w-100 p-5 h-100">
+            <div class="col-12 d-flex flex-column justify-content-evenly h-100">
+                <p onclick="backEnd()" class="sk2 display-3 text-end">&ltGo Back</p>
+                <div class="sk w-100 d-flex justify-content-center align-items-center">
+                    <span class="display-3">Java</span>
+                    <i class='display-1 bx bxl-java ms-3'></i>
+                </div>
+                <div class="sk w-100 d-flex justify-content-center align-items-center">
+                    <span class="display-3">C++</span>
+                    <i class='display-1 bx bxl-c-plus-plus ms-3'></i>
+                </div>
+                <div class="sk w-100 d-flex justify-content-center align-items-center">
+                    <span class="display-3">PHP</span>
+                    <i class='display-1 bx bxl-php ms-3'></i>
+                </div>
+                <div class="sk w-100 d-flex justify-content-center align-items-center">
+                    <span class="display-3">Codeigniter</span>
+                    <i class='display-1 bx bxs-hot ms-3'></i>
+                </div>
+                <div class="sk w-100 d-flex justify-content-center align-items-center">
+                    <span class="display-3">SQL/PLSQL</span>
+                    <i class='display-1 bx bxl-postgresql'></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main">
+        <div id="home" class="container-flex w-100">
+            <div class="row">
+                <div class="hero col-6 text-end text-dark bg-light p-0 d-flex flex-column justify-content-center">
+                    <p class="title" data-aos="fade-right" data-aos-duration="3000">FERN</p>
+                    <p class="title" data-aos="fade-right" data-aos-duration="3000">ALC</p>
+                </div>
+                <div class="hero col-6 text-start text-light bg-dark p-0 d-flex flex-column justify-content-center">
+                    <p class="title" data-aos="fade-left" data-aos-duration="3000">ANDO</p>
+                    <p class="title" data-aos="fade-left" data-aos-duration="3000">IVAR</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-flex w-100">
+            <div id="skills" class="row">
+                <div class="hero col-6 text-end text-light bg-dark p-0 d-flex flex-column justify-content-center">
+                    <div class="skill" data-aos="fade-right" data-aos-duration="3000">
+                        <p>&nbsp;</p>
+                        <p class="title">SKI</p>
+                        <p class="sk2" onclick="frontEnd()">&ltFrontEnd</p>
+                    </div>
+                </div>
+                <div class="hero col-6 text-start text-dark bg-light p-0 d-flex flex-column justify-content-center">
+                    <div class="skill" data-aos="fade-left" data-aos-duration="3000">
+                        <p class="sk2" onclick="backEnd()">BackEnd&gt</p>
+                        <p class="title">LLS</p>
+                        <p>&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-flex w-100 position-relative">
+                <div id="projects" class="h-100 row">
+                    <div
+                        class="h-50 hero col-6 text-end text-dark bg-light p-0 d-flex flex-column justify-content-start pt-3">
+                        <p class="title mt-2" data-aos="fade-right" data-aos-duration="3000">PROJ</p>
+                    </div>
+                    <div
+                        class="h-50 hero col-6 text-start text-light bg-dark p-0 d-flex flex-column justify-content-start pt-3">
+                        <p class="title mt-2" data-aos="fade-left" data-aos-duration="3000">ECTS</p>
+                    </div>
+                    <div id="proj1" class="container w-100 h-100 d-flex justify-content-center align-items-center">
+                        <div id="p1" class="mt-5"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-flex w-100 position-relative">
+                <div class="row ">
+                    <div class="hero col-6 text-start text-light bg-dark p-0 d-flex flex-column justify-content-start">
+                    </div>
+                    <div class="hero col-6 text-end text-dark bg-light p-0 d-flex flex-column justify-content-start">
+                    </div>
+                    <div class="row position-absolute top-0 start-0 bottom-0 end-0 w-100 py-5">
+                        <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                            <div id="p2" class="project mt-5"></div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                            <div id="p3" class="project mt-5"></div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                            <div id="p4" class="project mt-5"></div>
+                        </div>
+                        <div class="d-none d-md-flex col-12 col-md-6 col-xl-4 justify-content-center">
+                            <div id="p5" class="project mt-5"></div>
+                        </div>
+                        <div class="d-none d-md-flex col-12 col-md-6 col-xl-4 justify-content-center">
+                            <div id="p6" class="project mt-5"></div>
+                        </div>
+                        <div class="d-none d-md-flex col-md-6 col-xl-4 justify-content-center">
+                            <div id="p7" class="project mt-5"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-flex w-100 d-none d-md-block">
+                <div id="contact" class="row">
+                    <div class="hero col-6 text-end text-dark bg-light p-0 d-flex flex-column align-items-end">
+                        <p class="title mt-2" data-aos="fade-right" data-aos-duration="3000">CON</p>
+                        <form class="px-5" data-aos="fade-right" data-aos-duration="3000">
+                            <input type="text" name="nombre" id="name" placeholder="FIRST NAME"
+                                class="col-10 col-lg-4 border-0 border-bottom">
+                            <input type="text" name="nombre" id="name" placeholder="LAST NAME"
+                                class="col-10 offset-lg-2 col-lg-4 border-0 border-bottom my-3 my-lg-0">
+                            <input type="email" name="correo" id="mail" placeholder="EMAIL"
+                                class="col-10 border-0 border-bottom my-3 my-lg-3">
+                            <textarea name="mensaje" id="message" cols="30" rows="4"
+                                placeholder="ENTER A BRIEF PROJECT REQUEST DESCRIPTION"
+                                class="col-10 border my-5"></textarea>
+                            <button type="button" class="btn btn-dark btn-lg btn-block col-10 rounded-0">SEND</button>
+                        </form>
+                    </div>
+                    <div class="hero col-6 text-start text-light bg-dark p-0 d-flex flex-column justify-content-start">
+                        <p class="title mt-2" data-aos="fade-left" data-aos-duration="3000">TACT</p>
+                        <div class="offset-1 col-5 mb-5">
+                            <div class="col-12 text-left" data-aos="fade-left" data-aos-duration="3000">
+                                <p class="h1">EMAIL:</p>
+                                <P class="h3">feralm3@gmail.com</P>
+                            </div>
+                            <div class="col-12 text-left my-5" data-aos="fade-left" data-aos-duration="3000">
+                                <p class="h1">PHONE:</p>
+                                <p class="h3">+34 662 45 48 14</p>
+                            </div>
+                            <div class="col-12 text-left my-5" data-aos="fade-left" data-aos-duration="3000">
+                                <p class="h1">LOCATION:</p>
+                                <p class="h3">SABADELL, BARCELONA,<br>SPAIN.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer class="bg-dark py-2 text-light">
+                    <div class="container-flex my-2 border-top border-5 border-bottom border-light p-5">
+                        <div class="row">
+                            <div class="col-3 d-flex flex-column align-items-start justify-content-center">
+                                <strong class="h4">Fernando Joel Alcivar Mendoza</strong>
+                                <strong class="h4">Web Developer</strong>
+                                <strong class="h4">From Sabadell, Barcelona</strong>
+                                <strong class="h4">Copyright 2023</strong>
+                            </div>
+                            <div class="offset-1 col-3 d-flex flex-column align-items-start justify-content-center">
+                                <a href="#home" class="sk2 text-decoration-none text-light h4">01 HOME</a>
+                                <a href="#skills" class="sk2 text-decoration-none text-light h4">02 SKILLS</a>
+                                <a href="#projects" class="sk2 text-decoration-none text-light h4">03 PROJECTS</a>
+                                <a href="#contact" class="sk2 text-decoration-none text-light h4">04 CONTACT</a>
+                            </div>
+                            <div class="offset-1 col-4 d-flex align-items-center">
+                                <i class='bx bxl-twitter display-1' style='color:#fdfdfd'></i>
+                                <i class='bx bxl-instagram-alt display-1' style='color:#fdfdfd'></i>
+                                <i class='bx bxl-linkedin-square display-1' style='color:#fdfdfd'></i>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <div class="container-flex w-100 d-md-none">
+                <div id="contact" class="w-100 bg-light text-dark d-flex flex-column align-items p-1">
+                    <p class="text-center title mt-2" data-aos="fade-right" data-aos-duration="3000">CONTACT</p>
+                    <div class="row justify-content-evenly bg-dark text-light p-5">
+                        <div class="col-12" data-aos="fade-left" data-aos-duration="3000">
+                            <p>EMAIL:</p>
+                            <P>feralm3@gmail.com</P>
+                        </div>
+                        <div class="col-12" data-aos="fade-left" data-aos-duration="3000">
+                            <p>PHONE:</p>
+                            <p>+34 662 45 48 14</p>
+                        </div>
+                        <div class="col-12" data-aos="fade-left" data-aos-duration="3000">
+                            <p>LOCATION:</p>
+                            <p>SABADELL, BARCELONA,<br>SPAIN.</p>
+                        </div>
+                    </div>
+                    <form class="p-5 d-flex flex-column" data-aos="fade-right" data-aos-duration="3000">
+                        <input type="text" name="nombre" id="name" placeholder="FIRST NAME"
+                            class="bg-light border-0 border-bottom my-3">
+                        <input type="text" name="nombre" id="name" placeholder="LAST NAME"
+                            class="bg-light border-0 border-bottom my-3">
+                        <input type="email" name="correo" id="mail" placeholder="EMAIL"
+                            class="bg-light border-0 border-bottom my-3">
+                        <textarea name="mensaje" id="message" cols="30" rows="4"
+                            placeholder="ENTER A BRIEF PROJECT REQUEST DESCRIPTION"
+                            class="bg-light border my-3"></textarea>
+                        <button type="button" class="btn btn-dark btn-lg btn-block rounded-0">SEND</button>
+                    </form>
+                </div>
+
+                <footer class="bg-dark py-2 text-light">
+                    <div class="container-flex my-2 border-top border-5 border-bottom border-light p-5">
+                        <div class="row">
+                            <div class="col-7 d-flex flex-column align-items-start justify-content-center">
+                                <strong class="h4">Fernando Joel Alcivar Mendoza</strong>
+                                <strong class="h4">Web Developer</strong>
+                                <strong class="h4">From Sabadell, Barcelona</strong>
+                                <strong class="h4">Copyright 2023</strong>
+                            </div>
+                            <div class="offset-1 col-4 d-flex flex-column align-items-center">
+                                <i class='bx bxl-twitter display-1' style='color:#fdfdfd'></i>
+                                <i class='bx bxl-instagram-alt display-1' style='color:#fdfdfd'></i>
+                                <i class='bx bxl-linkedin-square display-1' style='color:#fdfdfd'></i>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
