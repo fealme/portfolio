@@ -52,6 +52,12 @@ body {
   text-decoration: none;
 }
 
+#menuImg{
+  filter: grayscale(100%);
+  background: url(img/fernando.JPG) no-repeat center center;
+  background-size: cover;
+}
+
 div:has(#a1:hover)+div>#menuImg {
   background: url(img/1.png) no-repeat center center;
   background-size: cover;
@@ -493,6 +499,10 @@ footer,
     font-size: 150px;
     font-family: 'Italiana', serif;
   }
+
+  #projects>.hero{
+    min-height: 812px;
+  }
 }
 
 @media (max-width: 770px) {
@@ -502,6 +512,11 @@ footer,
 
   .title {
     font-size: 130px;
+  }
+
+  #p1{
+    height: 350px;
+    width: 90%;
   }
 }
 
@@ -523,6 +538,14 @@ footer,
   .title {
     font-size: 110px;
   }
+
+  #proj1 {
+    position: absolute;
+    left: 0;
+    top: 80px;
+    bottom: 0;
+    right: 0;
+  }
 }
 
 @media (max-width: 570px) {
@@ -536,6 +559,23 @@ footer,
 
   .title {
     font-size: 90px;
+  }
+
+  #p1{
+    height: 250px;
+    width: 90%;
+  }
+
+  #proj1 {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    right: 0;
+  }
+
+  #projects>.hero{
+    min-height: 512px;
   }
 }
 
@@ -557,11 +597,29 @@ footer,
   .title {
     font-size: 70px;
   }
+
+  .project{
+    height: 200px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 400px) {
   .sk3 {
     font-size: 50px;
+  }
+
+  #p1{
+    height: 180px;
+    width: 90%;
+  }
+
+  #proj1 {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    bottom: 0;
+    right: 0;
   }
 }
 
@@ -576,5 +634,13 @@ footer,
 
   .title {
     font-size: 60px;
+  }
+
+  #proj1 {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    bottom: 0;
+    right: 0;
   }
 }
