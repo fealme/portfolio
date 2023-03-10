@@ -3,6 +3,7 @@ var menu = document.getElementById('menu');
 var icon = menuIcon.firstChild;
 var body = document.getElementById('body');
 
+//Funció per desplegar el menú.
 function menuToggle() {
     if (menu.style.display === 'none') {
         menu.style.display = 'block';
@@ -15,6 +16,7 @@ function menuToggle() {
     }
 }
 
+//Funció per anar al apartat FrontEnd.
 function frontEnd() {
     var front = document.getElementById("front");
     if (front.style.display === 'none') {
@@ -24,6 +26,7 @@ function frontEnd() {
     }
 }
 
+//Funció per anar al apartat BackEnd.
 function backEnd() {
     var back = document.getElementById("back");
     if (back.style.display === 'none') {
@@ -32,22 +35,3 @@ function backEnd() {
         back.style.display = 'none';
     }
 }
-
-// const el = document.getElementById("p1");
-// const height = el.clientHeight;
-// const width = el.clientWidth;
-
-// el.addEventListener('mousemove', (evt)=>{
-//     const{layerX, layerY} = evt;
-//     const yRotation = (( layerX-width/2)/width)*20
-//     const xRotation = ((layerY-height/2)/height)*20;
-//     const string = `
-//     perspective(500px)
-//     scale(1.1)
-//     rotateX(${xRotation}deg)
-//     rotateY(${yRotation}deg)`;
-//     el.style.transform = string;
-// });
-
-
-

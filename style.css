@@ -1,9 +1,12 @@
+/* Import Font Italiana */
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 
+/* Ocultar scrollbar */
 ::-webkit-scrollbar {
   display: none;
 }
 
+/* Estils generals */
 html,
 body {
   margin: 0px;
@@ -12,6 +15,7 @@ body {
   font-family: 'Italiana', serif;
 }
 
+/* Estils menú */
 #menu-icon {
   position: fixed;
   top: 20px;
@@ -48,7 +52,7 @@ body {
 
 #menu ul li a {
   font-size: 2em;
-  color: #fff;
+  color: #fbfbfb;
   text-decoration: none;
 }
 
@@ -78,6 +82,19 @@ div:has(#a4:hover)+div>#menuImg {
   background-size: cover;
 }
 
+.sk3 {
+  color: #fbfbfb;
+  transition: color .8s;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+}
+
+.sk3:hover {
+  color: crimson;
+  transition: color .8s;
+}
+
+/* Estils Apartat FrontEnd */
 #front {
   overflow: hidden;
   display: none;
@@ -89,6 +106,7 @@ div:has(#a4:hover)+div>#menuImg {
   z-index: 9997;
 }
 
+/* Estils Apartat BackEnd */
 #back {
   overflow: hidden;
   display: none;
@@ -100,20 +118,10 @@ div:has(#a4:hover)+div>#menuImg {
   z-index: 9997;
 }
 
+/* Estils compartit entre seccions */
 .hero {
-  /* min-height: 744px; */
   min-height: 1024px;
   font-size: 100px;
-}
-
-.hero form {
-  font-size: 30px;
-  background: transparent;
-}
-
-.hero form input,
-.hero form textarea {
-  background: transparent;
 }
 
 .title {
@@ -121,13 +129,7 @@ div:has(#a4:hover)+div>#menuImg {
   font-family: 'Italiana', serif;
 }
 
-.empty {
-  background-color: grey;
-  height: 250px;
-  width: 80%;
-  opacity: 0.5;
-}
-
+/* Estils PROJECTS */
 #proj1 {
   position: absolute;
   left: 0;
@@ -190,13 +192,13 @@ div:has(#a4:hover)+div>#menuImg {
   background-size: cover;
 }
 
+/* SKILLS */
 .sk {
   transition: transform .8s;
 }
 
 .sk:hover {
   scale: 1.1;
-  /* border-bottom: 1px solid; */
   transition: transform .8s;
 }
 
@@ -209,16 +211,15 @@ div:has(#a4:hover)+div>#menuImg {
   transition: color .8s;
 }
 
-.sk3 {
-  color: #fbfbfb;
-  transition: color .8s;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 100px;
+/* CONTACT + FOOTER*/
+.hero form {
+  font-size: 30px;
+  background: transparent;
 }
 
-.sk3:hover {
-  color: crimson;
-  transition: color .8s;
+.hero form input,
+.hero form textarea {
+  background: transparent;
 }
 
 footer,
@@ -226,6 +227,7 @@ footer,
   font-family: 'Times New Roman', Times, serif;
 }
 
+/* ANIMACIONS ANIMISTA */
 .slide-in-blurred-top {
   -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
   animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
@@ -408,6 +410,8 @@ footer,
     opacity: 1;
   }
 }
+
+/* MEDIAQUERIES PER TAMANYS DE PANTALLA */
 
 @media (max-width: 1370px) {
   .hero {
