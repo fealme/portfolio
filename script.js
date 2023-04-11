@@ -3,14 +3,15 @@ var menu = document.getElementById('menu');
 var icon = menuIcon.firstChild;
 var body = document.getElementById('body');
 
-//Funció per desplegar el menú.
 function menuToggle() {
-    if (menu.style.display === 'none') {
-        menu.style.display = 'block';
+    if ( icon.classList.contains("bx-menu")) {
+        menu.style.transform = 'translateX(100%)';
+        menu.style.transition = 'transform 2s';
         icon.classList.remove("bx-menu");
         icon.classList.add("bx-window-close");
     } else {
-        menu.style.display = 'none';
+        menu.style.transform = 'translateX(-100%)';
+        menu.style.transition = 'transform 2s';
         icon.classList.remove("bx-window-close");
         icon.classList.add("bx-menu");
     }
