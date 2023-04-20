@@ -3,6 +3,7 @@ var menu = document.getElementById('menu');
 var icon = menuIcon.firstChild;
 var body = document.getElementById('body');
 
+//Funció per mostrar/ocultar el menú.
 function menuToggle() {
     if ( icon.classList.contains("bx-menu")) {
         menu.style.transform = 'translateX(100%)';
