@@ -124,6 +124,10 @@ div:has(#a4:hover)+div>#menuImg {
   font-size: 100px;
 }
 
+.hero h3{
+  font-size: 100px;
+}
+
 .title {
   font-size: 270px;
   font-family: 'Italiana', serif;
@@ -520,6 +524,10 @@ footer,
     font-size: 80px;
   }
 
+  .hero h3{
+    font-size: 80px;
+  }
+
   .title {
     font-size: 250px;
     font-family: 'Italiana', serif;
@@ -529,6 +537,10 @@ footer,
 @media (max-width: 1270px) {
   .hero {
     min-height: 1024px;
+    font-size: 80px;
+  }
+
+  .hero h3{
     font-size: 80px;
   }
 
@@ -548,6 +560,10 @@ footer,
     font-size: 80px;
   }
 
+  .hero h3{
+    font-size: 80px;
+  }
+
   .sk3 {
     font-size: 80px;
   }
@@ -561,6 +577,10 @@ footer,
 @media (max-width: 1070px) {
   .hero {
     min-height: 1024px;
+    font-size: 80px;
+  }
+
+  .hero h3{
     font-size: 80px;
   }
 
@@ -580,6 +600,10 @@ footer,
     font-size: 80px;
   }
 
+  .hero h3{
+    font-size: 80px;
+  }
+
   .sk3 {
     font-size: 60px;
   }
@@ -593,6 +617,10 @@ footer,
 @media (max-width: 870px) {
   .hero {
     min-height: 1024px;
+    font-size: 80px;
+  }
+
+  .hero h3{
     font-size: 80px;
   }
 
@@ -612,6 +640,10 @@ footer,
 
 @media (max-width: 770px) {
   .hero {
+    font-size: 60px;
+  }
+
+  .hero h3{
     font-size: 60px;
   }
 
@@ -636,6 +668,10 @@ footer,
     font-size: 40px;
   }
 
+  .hero h3{
+    font-size: 40px;
+  }
+
   .sk3 {
     font-size: 90px;
   }
@@ -655,6 +691,10 @@ footer,
 
 @media (max-width: 570px) {
   .hero {
+    font-size: 40px;
+  }
+
+  .hero h3{
     font-size: 40px;
   }
 
@@ -695,6 +735,10 @@ footer,
     font-size: 40px;
   }
 
+  .hero h3{
+    font-size: 40px;
+  }
+
   .sk3 {
     font-size: 60px;
   }
@@ -730,6 +774,10 @@ footer,
 
 @media (max-width: 320px) {
   .hero {
+    font-size: 30px;
+  }
+
+  .hero h3{
     font-size: 30px;
   }
 
